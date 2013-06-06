@@ -1,0 +1,335 @@
+/**
+* Estils webs publiques
+*
+* CSS
+*
+* @author     Maistanet.com <info@maistanet.com> i Atornallom - Cooperativa Integral Valenciana - http://atornallom.net
+* @copyright  2012 Maistanet.com i Atornallom - Cooperativa Integral Valenciana - http://atornallom.net
+* @package    xarxa
+* @license    http://www.gnu.org/copyleft/gpl.html  Distributed under the General Public License (GPL) 
+* @version    1.1
+* @link       https://github.com/maistanet/xarxesconsum
+*/
+body {
+    font-family: Verdana, Tahoma, Helvetica, Arial;
+    padding: 0;
+    background-color: #d0d0d0;
+    margin: 0;
+    color: #0f0f0f;
+}
+
+#principal {    
+    width: 960px;
+    margin: auto;
+    height: auto;
+}
+
+#principal800 {position: absolute; width: 960px;}
+
+#cap {margin-top: 15px;}
+
+
+/*-------- Login horitzontal -----------------------------------------------*/
+
+#loginh {
+    height: 30px;
+    background-image: url("loginbackground.jpg");
+    background-repeat: repeat-y;
+    font-size: 11px;
+}
+
+#loginh input {
+    border: 1px none #667072;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) inset;
+    color: #667072;
+    height: 14px;
+    margin: 0 5px 0 0;
+    padding: 2px 3px;
+    text-indent: 3px;
+}
+
+#loginh select {
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    font-size: 11px;
+    padding: 1px;
+    margin: 0 10px 0 5px;
+    background-color: #ffffff;
+    border-style:  none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) inset;
+    color: #667072;
+}
+
+#loginh select option {background-color: #fffeee;}
+
+#loginh input.entrar {
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    font-size: 10px;
+    text-decoration: none;
+    text-indent: 0;
+    color: #ffffff;
+    height: auto;
+    margin: 0 5px 0 0;
+    padding: 1px 5px;
+    background-color: #a4d100;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+#loginh input.entrar:active {
+    -moz-transform: translate(1px,1px);
+    -webkit-border-radius:5px 5px 5px 5px;
+    -webkit-transform: translate(1px,1px);
+    box-shadow: 0px 0px 0px #000000;
+}
+/*----------------------------------------------------------------------------*/
+
+/*------- Login específic ----------------------------------------------------*/
+
+/*#minilogin {float: right; padding: 10px 25px 20px 10px;}*/
+#minilogin {padding: 10px 25px 20px 10px;}
+
+#minilogin h5 {
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#minilogin table{
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    font-size: 12px;
+    width: 230px;
+    padding: 14px 14px 5px 14px;
+    border: 4px solid #4B4137;
+    background-color: #cda454;
+        -webkit-background-clip: padding-box;
+        -webkit-font-smoothing:antialiased;
+        -webkit-border-top-left-radius:30px;
+        -webkit-border-top-right-radius:30px;
+        -webkit-border-bottom-left-radius:30px;
+        -webkit-border-bottom-right-radius:30px;
+        -moz-border-radius:30px 30px 30px 30px;
+         box-shadow: 3px 3px 1px #4B4137;
+}
+
+#minilogin input {
+    border: 1px none #667072;
+    color: #667072;
+    height: 15px;
+    margin: 5px 10px 3px 3px;
+    padding: 3px 3px;
+    text-indent: 3px;
+     -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+#minilogin input.entrar {
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    font-size: 12px;
+    text-decoration: none;
+    height: auto;
+    margin: 5px 0 10px 10px;
+    color: #ffffff;
+    background-color: #a4d100;
+    padding: 3px 8px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+#minilogin input.entrar:active {
+    -moz-transform: translate(1px,1px);
+    -webkit-border-radius:5px 5px 5px 5px;
+    -webkit-transform: translate(1px,1px);
+    box-shadow: 0px 0px 0px #000000;
+}
+
+#minilogin input.entrar.partidor {background-color: #cc1d00;}
+#minilogin input.entrar.zn {background-color: #8f8700;}
+#minilogin input.entrar.srosa {background-color: #ac5900;}
+#minilogin input.entrar.gandia {background-color: #5571e2;}
+
+/*----------------------------------------------------------------------------*/
+
+
+#contingut {
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    margin: 0;
+    height: auto;
+    padding: 1%;
+    background-color: #e5deb4;
+}
+
+#contingut h3 {font-size: 20px; margin-left: 25px;}
+
+#contingut.index h3 {text-shadow: #ffcc00 0px 0px 0px;}
+#contingut.partidor h3 {color: #cc1d00;}
+#contingut.zn h3 {color: #8f8700;}
+#contingut.srosa h3 {color: #ac5900;}
+#contingut.gandia h3 {color: #5571e2;}
+
+#contingut p {
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 25px;
+    width: 630px;
+}
+
+#contingut li {font-size: 12px;padding: 8px;}
+
+/*----------- Els botons d'accés a les unitats de consum* -------------------*/
+
+/*#unitats {float: right; margin: 0;}*/
+
+#unitats h5 {
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#unitats ul {list-style-type: none; text-align: center;}
+#unitats li {line-height: 0px;margin-right: 40px;}
+
+#unitats a {
+    text-decoration: none;
+    outline-style: none;
+    color: #ffffff;
+    padding: 4px 10px;
+    border: 1px solid #686868;
+    background-color: #cda454;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+#unitats a:active {
+    -moz-transform: translate(1px,1px);
+    -webkit-border-radius:5px 5px 5px 5px;
+    -webkit-transform: translate(1px,1px);
+    box-shadow: 0px 0px 0px #000000;
+}
+/*----------------------------------------------------------------------------*/
+
+/*--------- Botons, enllaços i demés -----------------------------------------*/
+
+#descarga {font-size: 13px;}
+#descarga a {text-decoration: none; color: brown; outline-style: none;}
+#descarga a:hover {font-weight: bold;}
+
+#tornar a {
+    float: right;
+    margin-top: -30px;
+    outline-style: none;
+    margin-left: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 4px 10px;
+    border: 1px solid #686868;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+#tornar a:active {
+    -moz-transform: translate(1px,1px);
+    -webkit-border-radius:5px 5px 5px 5px;
+    -webkit-transform: translate(1px,1px);
+    box-shadow: 0px 0px 0px #000000;
+}
+
+#tornar.partidor a {background-color: #cc1d00;}
+#tornar.zn a {background-color: #8f8700;}
+#tornar.srosa a {background-color: #ac5900;}
+#tornar.gandia a {background-color: #5571e2;}
+
+#floatRight {float: right; margin: 0;}
+
+#selectorIdiomas input.lang {
+    font-family: Arial, Verdana, Tahoma, Helvetica;
+    font-size: 10px;
+    text-decoration: none;
+    text-indent: 0;
+    color: #000000;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 1px 5px;
+    background-color: #a4d100;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*----------- Línia de separació entre les seccions --------------------------*/
+
+#separacio {background-color: #ffffff; height: 1px; margin: 0;}
+
+/*----------------------------------------------------------------------------*/
+
+/*----------- Peu, text i logo de Maistanet ----------------------------------*/
+
+#peu {
+    background-color: #cda454;
+    margin-bottom: 5px;
+    height: 15px;
+    text-align: left;
+    padding: 10px;
+        -webkit-font-smoothing:antialiased;
+        -webkit-border-bottom-left-radius:30px;
+        -webkit-border-bottom-right-radius:30px;
+        -moz-border-radius:0 0 30px 30px;
+}
+
+#peu a {text-decoration: none; outline-style: none;}
+#peu a:active {-webkit-transform: translate(1px,1px); -moz-transform: translate(1px,1px);}
+
+.autors {
+    font-size: 10px;
+    color: #ffffff;
+    margin: 3px 0 0 10px;
+}
+
+#logopeu {
+    font-size: 10px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 3px;
+    background-color: #f5f5f5;
+    border: 1px solid #4B4137;
+        -webkit-background-clip: padding-box;
+        -webkit-font-smoothing:antialiased;
+        -webkit-border-top-left-radius:4px;
+        -webkit-border-top-right-radius:4px;
+        -webkit-border-bottom-left-radius:4px;
+        -webkit-border-bottom-right-radius:4px;
+        -moz-border-radius:4px 4px 4px 4px;
+}
+
+.logomaistanetpeu {color: #a8c91d;}
+.logocompeu {color: #afafaf;}
+
+/*----------------------------------------------------------------------------*/

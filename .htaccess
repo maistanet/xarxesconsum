@@ -1,0 +1,4 @@
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteRule (.*) http://maistanet.dyndns.org/$1 [R=301,L] 
+#RewriteRule ^$ http://maistanet.dyndns.org$1 [R=302,L]

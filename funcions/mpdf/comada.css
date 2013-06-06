@@ -1,0 +1,8 @@
+.comanda {
+    float: left;
+    width: 98mm;
+}
+h4 {
+    text-decoration: underline;
+}
+.totals{page-break-after: always;}
